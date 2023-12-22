@@ -1,0 +1,135 @@
+.div1{
+    width: 250px;
+    height: 100px;
+    /* background-color: blue; */
+    background-image: url(../images/ff.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+     animation-name: change1;
+     animation-duration: 3s;
+     animation-delay: 3s;
+     animation-fill-mode: forwards;
+
+}
+
+@keyframes change1 {
+    0%{background-color: yellow;
+        
+       }
+
+    50%{background-color: black;
+        
+      }
+    
+    100%{background-color: red;
+        left: 1120px;
+       
+    }
+}
+
+.div2{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    /* background-color:blue; */
+    background-image: url(../images/ff.jpg);
+    background-size: cover;
+}
+.div3{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    z-index: 5;
+    /* background-color:blue; */
+    background-image: url(../images/dd.jpg);
+    background-size: cover;
+    animation-name: change3;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes change3{
+    0%{ background-color: yellow;}
+    50%{ background-color: black;
+        }
+    100%{ background-color: red;
+        left:1120px;}
+}
+
+.div4{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    background-image: url(../images/ff.jpg);
+    background-size: cover;
+}
+
+.div5{
+    width: 250px;
+    height: 100px;
+    background-image: url(../images/ff.jpg);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+}
+.div6{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    /* background-color:blue; */
+    background-image: url(../images/dd.jpg);
+    background-size: cover;
+    animation-name: change6;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes change6 {
+    0%{ background-color: yellow;}
+    50%{ background-color: black;
+        }
+    100%{background-color: red;
+        right: 1120px;}
+}
+
+.div7{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+    background-image: url(../images/ff.jpg);
+    background-size: cover;
+}
+.div8{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+    right: 0;
+    /* background-color:blue; */
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    animation-name: change8;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes change8{
+    0%{background-color: yellow;}
+    50%{background-color: black;
+        }
+    100%{background-color: red;
+        right: 1120px;}
+}
+
